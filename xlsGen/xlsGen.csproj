@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="b2xtranslator">
+      <HintPath>b2xtranslator.dll</HintPath>
+    </Reference>
+    <Reference Include="b2xtranslator.xls">
+      <HintPath>b2xtranslator.xls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenMcdf" Version="2.2.1.9" />
+    <PackageReference Include="OpenMcdf.Extensions" Version="2.2.1.4" />
+  </ItemGroup>
+
+</Project>
